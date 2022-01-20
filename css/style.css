@@ -9,6 +9,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #333;
 }
 
 .nav ul {
@@ -78,7 +79,11 @@ html, body {
 
 .content-section {
     margin: 1em;
+    text-align: center;
+}
 
+.text {
+    color: white;
 }
 
 .container {
@@ -89,7 +94,7 @@ html, body {
 
 .section-header {
     font-weight: 700;
-    color: #333;
+    color: white;
     text-align: center;
     font-size: 2em;
 }
@@ -100,11 +105,10 @@ html, body {
 }
 
 .about-prof-image {
-    float: left;
-    height: 175px;
-    width: 190px;
-    margin: 30px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
+    margin-top: 100px;
 }
 
 .res-element {
@@ -118,8 +122,6 @@ html, body {
     position: fixed;
     bottom: 0;
     width: 100%;
-
-
 }
 
 .main-footer-container {
@@ -131,5 +133,5 @@ html, body {
 
 .main-footer-container ul {
     flex-grow: 1;
-    text-align: end;
+    text-align: right;
 }
