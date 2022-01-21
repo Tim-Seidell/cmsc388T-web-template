@@ -18,6 +18,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+            cd ../pub
             git clone git@github.com:Tim-Seidell/cmsc388T-web-template.git
             
 
